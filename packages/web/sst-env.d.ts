@@ -23,6 +23,15 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "LambdaAuth": {
+      "name": string
+      "type": "sst.aws.Function"
+      "url": string
+    }
+    "LambdaAuthTable": {
+      "name": string
+      "type": "sst.aws.Dynamo"
+    }
     "Web": {
       "type": "sst.aws.StaticSite"
       "url": string

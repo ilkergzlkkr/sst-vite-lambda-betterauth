@@ -6,6 +6,8 @@ import { passkey } from "better-auth/plugins/passkey";
 import { magicLink, openAPI } from "better-auth/plugins";
 import * as schema from "../auth-schema";
 
+// Not used anymore
+
 export const auth = betterAuth({
   plugins: [
     passkey(),
